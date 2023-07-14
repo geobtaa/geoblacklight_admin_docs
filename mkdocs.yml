@@ -14,5 +14,5 @@ nav:
 - Home: 'index.md'
 - Layout: 'layout.md'
 - Create a record: 'create.md'
-- Upload records: 'upload.md'
+- Import records: 'import.md'
 - Select records: 'select.md'
