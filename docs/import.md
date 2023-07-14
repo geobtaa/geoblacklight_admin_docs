@@ -1,21 +1,19 @@
-# Upload records
+# Import records
 
-There are two ways to add new records to GeoBlacklight Admin: with the Form view or with a CSV upload.
+Users can use this page to batch create or edit records with a CSV file.
 
+1. Create a CSV using the Label for each OGM Aardvark metadata field
 
+!!! warning "to do"
 
-
-### Batch Uploading with a CSV
-
-1. Save edited template to your desktop as a CSV file
-[Use the B1G Template](https://z.umn.edu/b1g-template)
+	Need to create a doc showing all the fields and References labels. [Use the B1G Template](https://z.umn.edu/b1g-template)
 
 2. Upload the spreadsheet to GeoBlacklight Admin
 
 	- Go to Admin Tools and select Imports. Click **New Import**.
 	- Give a name to the upload and enter details about the source and description. These details are helpful later in tracking imports.
 	- Select the CSV file for upload
-	- For Type, choose **BTAA CSV**. 
+	- For Type, choose ** **. 
 	- Click the **Create Import** button
 	- Review the _Field Mappings_ page. If the CSV was formatted with column headers spelled the same way as the template, the fields should automatically map to the correct elements. Otherwise, manually choose the crosswalk mapping.
 	- Scroll to the bottom and click the button **Create Mapping**
