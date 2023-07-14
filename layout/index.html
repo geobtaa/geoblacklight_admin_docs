@@ -248,18 +248,12 @@
     Form view
   </a>
   
-    <nav class="md-nav" aria-label="Form view">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#notifications" class="md-nav__link">
     Notifications
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -267,6 +261,47 @@
   <a href="#admin-tools" class="md-nav__link">
     Admin Tools
   </a>
+  
+    <nav class="md-nav" aria-label="Admin Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documents" class="md-nav__link">
+    Documents
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#imports" class="md-nav__link">
+    Imports
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bulk-actions" class="md-nav__link">
+    Bulk Actions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-links" class="md-nav__link">
+    Download Links
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#users" class="md-nav__link">
+    Users
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -301,8 +336,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../upload/" class="md-nav__link">
-        Upload records
+      <a href="../import/" class="md-nav__link">
+        Import records
       </a>
     </li>
   
@@ -350,20 +385,30 @@
 <p><img alt="" src="../images/dashboard.png" /></p>
 <hr />
 <h2 id="form-view">Form view</h2>
-<p>This page is where new records can be manually created and existing records can be edited.</p>
+<p>This page shows all of the editable fields for an individual record. Users can create new records or edit existing records manually with the Form view.</p>
 <p><img alt="" src="../images/formView.png" /></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Click on the button "View in Geoportal" to open a new tab with the record in the Geoportal. Note: the record is still viewable in the Geoportal via this button, even if it is a Draft or Unpublished.</p>
+<p>Click on the button "View in Geoportal" to open a new tab with the record live in GeoBlacklight. Note: the record is still viewable live via this button, even if it is a Draft or Unpublished.</p>
 </div>
 <hr />
-<h3 id="notifications">Notifications</h3>
-<p>Notifications is where the exported files can be found.</p>
+<h2 id="notifications">Notifications</h2>
+<p>The Notificiations tab shows downloadable file links. When a user requests a set of files for export, GeoBlacklight Admin will dynamically generate the download. Once the files are ready, the Notifications tab will display a red visual indicator.</p>
 <p><img alt="" src="../images/notifications.png" /></p>
 <hr />
 <h2 id="admin-tools">Admin Tools</h2>
 <p>The Admin Tools is a dropdown menu item that contains links to the various actions.</p>
 <p><img alt="" src="../images/adminTools.png" /></p>
+<h3 id="documents">Documents</h3>
+<p>This link shows all the documents in the Dashboard. (It is a duplicate of the default homepage.)</p>
+<h3 id="imports">Imports</h3>
+<p>This tool enables users to upload CSV files of metadata records.  See the <a href="../import/">Import records</a> page for more details.</p>
+<h3 id="bulk-actions">Bulk Actions</h3>
+<p>This link shows a list of batch edits a user has generated, such as setting the Publication State for a set of records. Bulk Actions cannot be created or edited from this page - it is currently only a list of previous actions. However, it may be useful to check on the status or history of an action.</p>
+<h3 id="download-links">Download Links</h3>
+<p>This tool enables users to upload CSV files for items with multiple downloads. See the Secondary Tables section of the <a href="../import/">Import records</a> page.</p>
+<h3 id="users">Users</h3>
+<p>Administrators can add or remove users with this page.</p>
 
 
 
