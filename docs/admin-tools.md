@@ -6,7 +6,7 @@ The Admin Tools menu item is a dropdown listing various functions. These functio
 
 ### Documents
 
-This link shows all the documents in the Dashboard. (It is a duplicate of the default homepage.)
+This link shows all the documents. (It is a duplicate link of the default home landing page.)
 
 ### Imports
 
@@ -20,7 +20,7 @@ This link shows a list of batch edits a user has generated, such as setting the 
 
 ### Assets
 
-This link directs to a dashboard displaying uploaded objects. Click on the "Upload Assets" button to manually upload a dataset, thumbnail, or supplemental metadata file.
+This link directs to a page displaying uploaded objects. Click on the "Upload Assets" button to manually upload a dataset, thumbnail, or supplemental metadata file.
 
 ### Access Links
 

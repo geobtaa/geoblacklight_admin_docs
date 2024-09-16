@@ -9,11 +9,17 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
   
 nav:
 - Home: 'index.md'
-- Layout: 'layout.md'
-- Create a record: 'create.md'
-- Import records: 'import.md'
-- Select records: 'select.md'
-- Admin Tools: 'admin-tools.md'
+- Layout:
+      - Toolbar: 'toolbar.md'
+      - Views: 'views.md'
+      - Admin Tools: 'admin-tools.md'
+      
+- How to:
+      - Create a record: 'create.md'
+      - Import records: 'import.md'
+      - Select records: 'select.md'

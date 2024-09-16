@@ -2,11 +2,15 @@
 
 Users can use this page to batch create or edit records with a CSV file.
 
+## Primary Table
+
+The Primary table holds the metadata for each item.
+
 1. Create a CSV using the Label for each OGM Aardvark metadata field
 
-!!! warning "to do"
+!!! tip
 
-	Need to create a doc showing all the fields and References labels. [Use the B1G Template](https://z.umn.edu/b1g-template)
+	Copy the [B1G Template](https://z.umn.edu/b1g-template) for an example of an importable CSV.
 
 2. Upload the spreadsheet to GeoBlacklight Admin
 
@@ -24,7 +28,7 @@ Users can use this page to batch create or edit records with a CSV file.
 
 3. Spot check records for errors and consistency
 
-	- The newly uploaded records will be listed as **Draft** under the Publication State on the main dashboard
+	- The newly uploaded records will be listed as **Draft** under the Publication State on the main Documents view.
 	- Select 'Draft' under Publication State and select an item. This will open it in editing view.
 	- Click the button **View in Geoportal**
 	- Inspect the record and test the links.	- Repeat this process for about 3 records.
@@ -32,7 +36,7 @@ Users can use this page to batch create or edit records with a CSV file.
 
 4. Convert records from 'Draft' to 'Published'
 
-	- If the records are satisfactory, return to the Dashboard view and select all Draft items in the upload. 
+	- If the records are satisfactory, return to the Documents view and select all Draft items in the upload. 
 	- Select All and then select the text "Select all results that match this search"
 	- Click the State button. From the dropdown, select Published.
 	- On the _Bulk Action_ page, click the button **Run Bulk Action**
@@ -40,15 +44,21 @@ Users can use this page to batch create or edit records with a CSV file.
 
 ## Secondary tables
 
-There are two metadata fields, `Multiple Download Links` and `Institutional Access Links` that use secondary tables. This occurs when the field needs parts to the value: a label + a link. 
+Secondary tables are for selected external links and assets/file attachments.
+
+### External Links
+
+`Multiple Download Links` and `Institutional Access Links` use secondary tables.
 
 * When using the Form view, these values can be entered directly.
-* For CSV uploads, these values use a separate sheet than for the main import template.
-* Multiple Download Links: 
+* For CSV uploads, these values use a different template than for the Primary table.
+
+* **Multiple Download Links**: 
 	- on the Form view, scroll down to the Multiple Download Links inside the editor
 	- to enter manually, click the New Download URL button
 	- to upload multiple links, click the Import CSV button
-* Institutional Access Links
+
+* **Institutional Access Links**:
 	- on the Form view, click the text "Institutional Access Links" on the bottom of the right hand navigation OR go to Admin Tools - Access Links
 	- to enter manually, click the New Access URL button
 	- to upload multiple links, click the Import CSV button
@@ -73,3 +83,8 @@ There are two metadata fields, `Multiple Download Links` and `Institutional Acce
         ```
 
 
+### Assets/File Attachments
+
+!!! warning "in development"
+
+	This feature is currently in development
