@@ -30,26 +30,7 @@ The Notificiations tab shows downloadable file links. When a user requests a set
 ------------
 ## Admin Tools
 
-The Admin Tools is a dropdown menu item that contains links to the various actions.
+The Admin Tools is a dropdown menu item that contains links to the various actions. See the [Admin Tools page](admin-tools.md) for descriptions.
 
 ![](images/adminTools.png)
 
-### Documents
-
-This link shows all the documents in the Dashboard. (It is a duplicate of the default homepage.)
-
-### Imports
-
-This tool enables users to upload CSV files of metadata records.  See the [Import records](import.md) page for more details.
-
-### Bulk Actions
-
-This link shows a list of batch edits a user has generated, such as setting the Publication State for a set of records. Bulk Actions cannot be created or edited from this page - it is currently only a list of previous actions. However, it may be useful to check on the status or history of an action.
-
-### Download Links
-
-This tool enables users to upload CSV files for items with multiple downloads. See the Secondary Tables section of the [Import records](import.md) page.
-
-### Users
-
-Administrators can add or remove users with this page.
