@@ -17,7 +17,7 @@ The Primary table holds the metadata for each item.
 	- Go to Admin Tools and select Imports. Click **New Import**.
 	- Give a name to the upload and enter details about the source and description. These details are helpful later in tracking imports.
 	- Select the CSV file for upload
-	- For Type, choose ** **. 
+	- For Type, choose **BTAA CSV**. 
 	- Click the **Create Import** button
 	- Review the _Field Mappings_ page. If the CSV was formatted with column headers spelled the same way as the template, the fields should automatically map to the correct elements. Otherwise, manually choose the crosswalk mapping.
 	- Scroll to the bottom and click the button **Create Mapping**
